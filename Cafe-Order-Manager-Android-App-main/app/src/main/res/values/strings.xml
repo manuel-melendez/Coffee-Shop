@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Cafe-Order-Manager-App</string>
+    <string name="title_activity_order_donuts">order_donuts</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="make_your_donut_selection">Make your donut selection!</string>
+    <string name="welcome_to_the_coffee_shop">Welcome to the Coffee Shop!</string>
+    <string name="click_here_to_order_coffee">Click here to order coffee</string>
+    <string name="click_here_to_order_donuts">Click here to order donuts</string>
+    <string name="click_here_to_view_basket">Click here to view basket</string>
+    <string name="click_here_to_view_store_orders">Click here to view store orders</string>
+    <string name="coffee">coffee</string>
+    <string name="donuts">donuts</string>
+    <string name="basket">basket</string>
+    <string name="orders">orders</string>
+    <string name="removeButtonLabel">Remove</string>
+    <string name="place_order_button_label">Place Order</string>
+    <string name="order_view_default_text">Select an order to see it\'s details here.</string>
+    <string name="errorTitle">Error</string>
+    <string name="orderBasketRemovalError">Please make a selection first</string>
+    <string name="placeOrderEmptyError">Please add an item to the order before placing the order</string>
+    <string name="orderPlacedTitle">Order Placed</string>
+    <string name="placeOrderSuccessMessage">Your Order has been placed successfully!\nNo further changes will be
+        permitted.
+    </string>
+    <string name="newline">\n</string>
+    <string name="subTotalStub">Sub-total=</string>
+    <string name="taxesStub">Taxes=</string>
+    <string name="totalStub">Total=</string>
+    <string name="storeOrderListEmptyError">The list of orders is empty. Please add an order first before attempting to
+        remove one.
+    </string>
+    <string name="noPlacedOrders">There are no placed orders.</string>
+    <string name="storeOrderTitle">Store Orders</string>
+    <string name="orderTitle">Order-</string>
+    <string name="textview">TextView</string>
+    <string name="total_0_00">Total: $0.00</string>
+    <string name="click_a_donut_to_add_to_cart">Click a donut to add to cart</string>
+    <string name="enter_a_quantity">Enter a quantity</string>
+    <string name="select_a_coffee_size_and_add_ons">Select a coffee size and add-ons!</string>
+    <string name="caramel">caramel</string>
+    <string name="cream">cream</string>
+    <string name="syrup">syrup</string>
+    <string name="milk">milk</string>
+    <string name="whipped_cream">whipped cream</string>
+    <string name="add_to_basket">Add to basket</string>
+    <string name="yd">yeast donut</string>
+    <string name="cd">cake donut</string>
+    <string name="dh">donut holes</string>
+    <string name="plainFlavor">Plain</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="powdered">Powdered</string>
+    <string name="special">The jesse/manny special flavor</string>
+    <string name="quantityError">Please enter a valid quantity!</string>
+    <string name="quantitySizeError">Please enter a valid quantity or select size!</string>
+    <string name="space">&#160;</string>
+    <string name="addToBasketConfirmation">has been added to basket!</string>
+    <string name="whippedCream">whipped cream</string>
+
+    <string-array name="coffeeSizes">
+        <item>Short</item>
+        <item>Tall</item>
+        <item>Grande</item>
+        <item>Venti</item>
+    </string-array>
+</resources>

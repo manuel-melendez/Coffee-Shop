@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coffeeOutput"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderCoffeeActivity">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="409dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/cream"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="102dp"
+        android:layout_marginEnd="103dp"
+        android:fontFamily="casual"
+        android:text="@string/select_a_coffee_size_and_add_ons"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.873" />
+
+    <CheckBox
+        android:id="@+id/caramel"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/caramel"
+        app:layout_constraintBottom_toTopOf="@+id/whippedCream"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/cream"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/cream"
+        app:layout_constraintBottom_toTopOf="@+id/syrup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/syrup"
+        android:layout_width="0dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/syrup"
+        app:layout_constraintBottom_toTopOf="@+id/milk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/milk"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="12dp"
+        android:text="@string/milk"
+        app:layout_constraintBottom_toTopOf="@+id/caramel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <CheckBox
+        android:id="@+id/whippedCream"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="60dp"
+        android:text="@string/whipped_cream"
+        app:layout_constraintBottom_toTopOf="@+id/coffeeAddBasket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="251dp"
+        android:layout_height="77dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/total_0_00"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/coffeeAddBasket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:text="@string/add_to_basket"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="101dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/textInputEditText"
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:hint="@string/enter_a_quantity"
+        android:textColorHint="#616161"
+        app:layout_constraintBottom_toTopOf="@+id/coffeeAddBasket"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck,TextContrastCheck" />
+</androidx.constraintlayout.widget.ConstraintLayout>
